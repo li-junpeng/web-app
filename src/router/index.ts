@@ -31,6 +31,14 @@ const router = createRouter({
         title: '旋转菜单按钮'
       },
       component: () => import('@/views/components/rotate-menu-button/index.vue')
+    },
+    {
+      path: '/css-animations-show-type',
+      name: 'CssAnimationsShowType',
+      meta: {
+        title: 'css-animations'
+      },
+      component: () => import('@/views/components/css-animations-show-type/index.vue')
     }
   ]
 })
