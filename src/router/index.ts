@@ -23,6 +23,14 @@ const router = createRouter({
         title: '爱你的心'
       },
       component: () => import('@/views/components/love-you-heart/index.vue')
+    },
+    {
+      path: '/rotate-menu-button',
+      name: 'RotateMenuButton',
+      meta: {
+        title: '旋转菜单按钮'
+      },
+      component: () => import('@/views/components/rotate-menu-button/index.vue')
     }
   ]
 })
