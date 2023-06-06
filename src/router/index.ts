@@ -15,6 +15,14 @@ const router = createRouter({
         title: '流光卡片'
       },
       component: () => import('@/views/components/streamer-card/index.vue')
+    },
+    {
+      path: '/love-you-heart',
+      name: 'LoveYouHeart',
+      meta: {
+        title: '爱你的心'
+      },
+      component: () => import('@/views/components/love-you-heart/index.vue')
     }
   ]
 })
