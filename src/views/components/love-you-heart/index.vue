@@ -14,7 +14,6 @@
 </template>
 
 <style scoped lang="scss">
-$background-color: #0c1022;
 $heart-size: 200px;
 $heart-color: #f20044;
 $heart-shadow: -10px 10px 90px $heart-color;
@@ -24,7 +23,7 @@ $heart-shadow: -10px 10px 90px $heart-color;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: $background-color;
+  background: linear-gradient(45deg, #fffdfe, #d63fb2);
 
   .heart-box {
     width: $heart-size;
