@@ -105,6 +105,14 @@ const router = createRouter({
         title: '水杯晃动效果'
       },
       component: () => import('@/views/components/water-jolt/index.vue')
+    },
+    {
+      path: '/menu-btn',
+      name: 'MenuBtn',
+      meta: {
+        title: '菜单按钮动画'
+      },
+      component: () => import('@/views/components/menu-btn/index.vue')
     }
   ]
 })
