@@ -57,6 +57,14 @@ const router = createRouter({
         title: '水滴'
       },
       component: () => import('@/views/components/water-drop/index.vue')
+    },
+    {
+      path: '/cloud-rain',
+      name: 'CloudRain',
+      meta: {
+        title: '下雨'
+      },
+      component: () => import('@/views/components/cloud-rain/index.vue')
     }
   ]
 })
