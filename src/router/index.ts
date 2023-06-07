@@ -113,6 +113,14 @@ const router = createRouter({
         title: '菜单按钮动画'
       },
       component: () => import('@/views/components/menu-btn/index.vue')
+    },
+    {
+      path: '/buy-car-add-animation',
+      name: 'BuyCarAddAnimation',
+      meta: {
+        title: '购物车添加商品动画'
+      },
+      component: () => import('@/views/components/buy-car-add-animation/index.vue')
     }
   ]
 })
