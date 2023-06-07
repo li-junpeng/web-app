@@ -73,6 +73,14 @@ const router = createRouter({
         title: '手机充电'
       },
       component: () => import('@/views/components/phone-charge/index.vue')
+    },
+    {
+      path: '/hourglass-loading',
+      name: 'HourglassLoading',
+      meta: {
+        title: '沙漏加载动画'
+      },
+      component: () => import('@/views/components/hourglass-loading/index.vue')
     }
   ]
 })
