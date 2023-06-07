@@ -12,7 +12,9 @@ const router = createRouter({
       path: '/streamer-card',
       name: 'StreamerCard',
       meta: {
-        title: '流光卡片'
+        title: '流光卡片',
+        // 优先获取thumb字段为缩略图图片，如果没有该属性，则以路由 path + .png 为准
+        thumb: '/assets/images/component-thumb/streamer-card.png'
       },
       component: () => import('@/views/components/streamer-card/index.vue')
     },
