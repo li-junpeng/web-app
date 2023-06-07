@@ -44,7 +44,7 @@
       top: 60px;
       background-color: rgba(255, 255, 255, .8);
       border-radius: 63% 37% 70% 30% / 52% 60% 40% 48%;
-      box-shadow: 0px 0px 6px 6px rgba(255, 255, 255, .8);
+      box-shadow: 0 0 6px 6px rgba(255, 255, 255, .8);
     }
   }
 
