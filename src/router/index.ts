@@ -97,6 +97,14 @@ const router = createRouter({
         title: '歌词文本填充效果'
       },
       component: () => import('@/views/components/lyrics-fill/index.vue')
+    },
+    {
+      path: '/water-jolt',
+      name: 'WaterJolt',
+      meta: {
+        title: '水杯晃动效果'
+      },
+      component: () => import('@/views/components/water-jolt/index.vue')
     }
   ]
 })
