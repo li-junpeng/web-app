@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import {createRouter, createWebHistory} from 'vue-router'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -70,7 +70,7 @@ const router = createRouter({
       path: '/phone-charge',
       name: 'PhoneCharge',
       meta: {
-        title: '手机充电'
+        title: '手机充电效果'
       },
       component: () => import('@/views/components/phone-charge/index.vue')
     },
@@ -89,6 +89,14 @@ const router = createRouter({
         title: '输入框标签动画'
       },
       component: () => import('@/views/components/input-label-animation/index.vue')
+    },
+    {
+      path: '/lyrics-fill',
+      name: 'LyricsFill',
+      meta: {
+        title: '歌词文本填充效果'
+      },
+      component: () => import('@/views/components/lyrics-fill/index.vue')
     }
   ]
 })
