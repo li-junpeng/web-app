@@ -41,6 +41,14 @@ const router = createRouter({
         title: 'css-animations'
       },
       component: () => import('@/views/components/css-animations-show-type/index.vue')
+    },
+    {
+      path: '/sun',
+      name: 'Sun',
+      meta: {
+        title: 'css-animations'
+      },
+      component: () => import('@/views/components/sun/index.vue')
     }
   ]
 })
