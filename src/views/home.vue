@@ -56,6 +56,7 @@ routers.forEach(item => {
   gap: 50px 20px;
   flex-wrap: wrap;
   font-size: 14px;
+  justify-content: space-between;
 
   .component-box {
     overflow: hidden;
