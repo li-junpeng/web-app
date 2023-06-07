@@ -49,6 +49,14 @@ const router = createRouter({
         title: '太阳'
       },
       component: () => import('@/views/components/sun/index.vue')
+    },
+    {
+      path: '/water-drop',
+      name: 'WaterDrop',
+      meta: {
+        title: '水滴'
+      },
+      component: () => import('@/views/components/water-drop/index.vue')
     }
   ]
 })
