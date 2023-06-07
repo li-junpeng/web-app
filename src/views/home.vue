@@ -56,6 +56,8 @@ routers.forEach(item => {
   gap: 50px 32px;
   flex-wrap: wrap;
   font-size: 14px;
+  background-color: #3f3a3a;
+  color: #fff;
 
   .component-box {
     overflow: hidden;
@@ -73,7 +75,7 @@ routers.forEach(item => {
 
     .component-title {
       width: 100%;
-      margin-top: 10px;
+      margin-top: 5px;
       text-align: left;
       cursor: default;
     }
