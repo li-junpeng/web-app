@@ -65,6 +65,14 @@ const router = createRouter({
         title: '下雨'
       },
       component: () => import('@/views/components/cloud-rain/index.vue')
+    },
+    {
+      path: '/phone-charge',
+      name: 'PhoneCharge',
+      meta: {
+        title: '手机充电'
+      },
+      component: () => import('@/views/components/phone-charge/index.vue')
     }
   ]
 })
