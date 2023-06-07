@@ -81,6 +81,14 @@ const router = createRouter({
         title: '沙漏加载动画'
       },
       component: () => import('@/views/components/hourglass-loading/index.vue')
+    },
+    {
+      path: '/input-label-animation',
+      name: 'InputLabelAnimation',
+      meta: {
+        title: '输入框标签动画'
+      },
+      component: () => import('@/views/components/input-label-animation/index.vue')
     }
   ]
 })
