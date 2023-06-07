@@ -39,12 +39,20 @@ routers.forEach(item => {
     <div
       v-for="(com, index) in coms"
       :key="index"
+      :title="com.title"
       class="component-box"
     >
       <router-link :to="com.path" target="_blank">
         <img :src="com.thumb" :alt="com.title" class="component-thumb">
       </router-link>
-      <span class="component-title">{{ com.title }}</span>
+      <div class="component-introduce">
+        <span class="component-title">{{ com.title }}</span>
+
+        <!-- TODO 这里要通过配置进行生成语言列表，暂时先写死，太晚了，睡觉了...... -->
+        <span class="component-use-language language-html">HTML</span>
+        <span class="component-use-language language-css">CSS</span>
+        <span v-if="com.path === '/buy-car-add-animation'" class="component-use-language language-js">JS</span>
+      </div>
     </div>
   </div>
 </template>
@@ -73,12 +81,47 @@ routers.forEach(item => {
       cursor: pointer;
     }
 
-    .component-title {
+    .component-introduce {
       width: 100%;
-      margin-top: 5px;
-      text-align: left;
-      cursor: default;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 5px;
+
+      .component-title {
+        flex: 1;
+        width: 0;
+        text-align: left;
+        cursor: default;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      .component-use-language {
+        width: fit-content;
+        height: 16px;
+        line-height: 14px;
+        border-radius: 2px;
+        padding: 0 10px;
+        font-size: 12px;
+        user-select: none;
+
+        &.language-html {
+          background-color: #286e11;
+        }
+
+        &.language-css {
+          background-color: #a94718;
+        }
+
+        &.language-js {
+          background-color: #1182f7;
+        }
+      }
     }
+
+
   }
 }
 </style>
