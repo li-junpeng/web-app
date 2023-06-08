@@ -185,6 +185,14 @@ const router = createRouter({
         title: 'loading - 03'
       },
       component: () => import('@/views/components/loading-03/index.vue')
+    },
+    {
+      path: '/text-melt-expand',
+      name: 'TextMeltExpand',
+      meta: {
+        title: '文字融化展开'
+      },
+      component: () => import('@/views/components/text-melt-expand/index.vue')
     }
   ]
 })
