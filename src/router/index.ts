@@ -137,6 +137,14 @@ const router = createRouter({
         title: '会跳动的文字加载动画'
       },
       component: () => import('@/views/components/text-dance-loading/index.vue')
+    },
+    {
+      path: '/swirl',
+      name: 'Swirl',
+      meta: {
+        title: '漩涡'
+      },
+      component: () => import('@/views/components/swirl/index.vue')
     }
   ]
 })

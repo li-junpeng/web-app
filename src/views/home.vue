@@ -33,7 +33,7 @@ routers.forEach(item => {
 })
 
 // TODO 后期改成配置与下方语言列表一起改
-const isJsComPaths = ['/buy-car-add-animation', '/light-bulb']
+const isJsComPaths = ['/buy-car-add-animation', '/light-bulb', '/swirl']
 
 </script>
 
