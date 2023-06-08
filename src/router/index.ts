@@ -129,6 +129,14 @@ const router = createRouter({
         title: '会发光的灯泡'
       },
       component: () => import('@/views/components/light-bulb/index.vue')
+    },
+    {
+      path: '/text-dance-loading',
+      name: 'TextDanceLoading',
+      meta: {
+        title: '会跳动的文字加载动画'
+      },
+      component: () => import('@/views/components/text-dance-loading/index.vue')
     }
   ]
 })
