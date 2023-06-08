@@ -161,6 +161,14 @@ const router = createRouter({
         title: '蜡烛'
       },
       component: () => import('@/views/components/bougie/index.vue')
+    },
+    {
+      path: '/loading-01',
+      name: 'Loading01',
+      meta: {
+        title: 'loading - 01'
+      },
+      component: () => import('@/views/components/loading-01/index.vue')
     }
   ]
 })

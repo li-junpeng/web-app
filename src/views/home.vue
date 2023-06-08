@@ -62,7 +62,7 @@ const isJsComPaths = ['/buy-car-add-animation', '/light-bulb', '/swirl']
 
 <style scoped lang="scss">
 .page-container {
-  padding: 10px;
+  padding: 20px 10px;
   display: flex;
   gap: 50px 32px;
   flex-wrap: wrap;
