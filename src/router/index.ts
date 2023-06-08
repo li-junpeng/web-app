@@ -121,6 +121,14 @@ const router = createRouter({
         title: '购物车添加商品动画'
       },
       component: () => import('@/views/components/buy-car-add-animation/index.vue')
+    },
+    {
+      path: '/light-bulb',
+      name: 'LightBulb',
+      meta: {
+        title: '会发光的灯泡'
+      },
+      component: () => import('@/views/components/light-bulb/index.vue')
     }
   ]
 })
