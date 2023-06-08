@@ -169,6 +169,14 @@ const router = createRouter({
         title: 'loading - 01'
       },
       component: () => import('@/views/components/loading-01/index.vue')
+    },
+    {
+      path: '/loading-02',
+      name: 'Loading02',
+      meta: {
+        title: 'loading - 02'
+      },
+      component: () => import('@/views/components/loading-02/index.vue')
     }
   ]
 })
