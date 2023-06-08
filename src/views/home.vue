@@ -32,6 +32,9 @@ routers.forEach(item => {
   })
 })
 
+// TODO 后期改成配置与下方语言列表一起改
+const isJsComPaths = ['/buy-car-add-animation', '/light-bulb']
+
 </script>
 
 <template>
@@ -51,7 +54,7 @@ routers.forEach(item => {
         <!-- TODO 这里要通过配置进行生成语言列表，暂时先写死，太晚了，睡觉了...... -->
         <span class="component-use-language language-html">HTML</span>
         <span class="component-use-language language-css">CSS</span>
-        <span v-if="com.path === '/buy-car-add-animation'" class="component-use-language language-js">JS</span>
+        <span v-if="isJsComPaths.includes(com.path)" class="component-use-language language-js">JS</span>
       </div>
     </div>
   </div>
