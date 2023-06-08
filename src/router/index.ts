@@ -193,6 +193,14 @@ const router = createRouter({
         title: '文字融化展开'
       },
       component: () => import('@/views/components/text-melt-expand/index.vue')
+    },
+    {
+      path: '/tooltip-content',
+      name: 'TooltipContent',
+      meta: {
+        title: '提示框内容'
+      },
+      component: () => import('@/views/components/tooltip-content/index.vue')
     }
   ]
 })
