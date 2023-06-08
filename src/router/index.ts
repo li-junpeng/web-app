@@ -145,6 +145,14 @@ const router = createRouter({
         title: '漩涡'
       },
       component: () => import('@/views/components/swirl/index.vue')
+    },
+    {
+      path: '/jolt-bottle',
+      name: 'JoltBottle',
+      meta: {
+        title: '摇晃的瓶子'
+      },
+      component: () => import('@/views/components/jolt-bottle/index.vue')
     }
   ]
 })
