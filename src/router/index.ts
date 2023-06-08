@@ -153,6 +153,14 @@ const router = createRouter({
         title: '摇晃的瓶子'
       },
       component: () => import('@/views/components/jolt-bottle/index.vue')
+    },
+    {
+      path: '/bougie',
+      name: 'Bougie',
+      meta: {
+        title: '蜡烛'
+      },
+      component: () => import('@/views/components/bougie/index.vue')
     }
   ]
 })
