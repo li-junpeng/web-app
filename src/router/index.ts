@@ -425,6 +425,14 @@ const router = createRouter({
         title: '开关按钮动画'
       },
       component: () => import('@/views/components/power-switch-animation/index.vue')
+    },
+    {
+      path: '/day-to-night-toggle-switch',
+      name: 'DayToNightToggleSwitch',
+      meta: {
+        title: '白天与黑夜'
+      },
+      component: () => import('@/views/components/day-to-night-toggle-switch/index.vue')
     }
   ]
 })
