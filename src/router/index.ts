@@ -409,6 +409,14 @@ const router = createRouter({
         title: 'text-effect-01'
       },
       component: () => import('@/views/components/text-effect-01/index.vue')
+    },
+    {
+      path: '/aurora-borealis-text',
+      name: 'AuroraBorealisText',
+      meta: {
+        title: '北极光文本'
+      },
+      component: () => import('@/views/components/aurora-borealis-text/index.vue')
     }
   ]
 })
