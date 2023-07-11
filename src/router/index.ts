@@ -401,6 +401,14 @@ const router = createRouter({
         title: '登录页'
       },
       component: () => import('@/views/components/login-01/index.vue')
+    },
+    {
+      path: '/text-effect-01',
+      name: 'TextEffect01',
+      meta: {
+        title: 'text-effect-01'
+      },
+      component: () => import('@/views/components/text-effect-01/index.vue')
     }
   ]
 })
