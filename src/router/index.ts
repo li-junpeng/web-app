@@ -443,6 +443,14 @@ const router = createRouter({
       component: () => import('@/views/components/loading-35/index.vue')
     },
     {
+      path: '/loading-36',
+      name: 'Loading36',
+      meta: {
+        title: 'loading - 36'
+      },
+      component: () => import('@/views/components/loading-36/index.vue')
+    },
+    {
       path: '/text-melt-expand',
       name: 'TextMeltExpand',
       meta: {
