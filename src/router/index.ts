@@ -227,6 +227,14 @@ const router = createRouter({
       component: () => import('@/views/components/loading-08/index.vue')
     },
     {
+      path: '/loading-09',
+      name: 'Loading09',
+      meta: {
+        title: 'loading - 09'
+      },
+      component: () => import('@/views/components/loading-09/index.vue')
+    },
+    {
       path: '/text-melt-expand',
       name: 'TextMeltExpand',
       meta: {
