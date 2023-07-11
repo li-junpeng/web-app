@@ -201,6 +201,14 @@ const router = createRouter({
         title: '提示框内容'
       },
       component: () => import('@/views/components/tooltip-content/index.vue')
+    },
+    {
+      path: '/login-01',
+      name: 'Login01',
+      meta: {
+        title: '登录页'
+      },
+      component: () => import('@/views/components/login-01/index.vue')
     }
   ]
 })
