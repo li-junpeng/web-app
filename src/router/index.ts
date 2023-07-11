@@ -417,6 +417,14 @@ const router = createRouter({
         title: '北极光文本'
       },
       component: () => import('@/views/components/aurora-borealis-text/index.vue')
+    },
+    {
+      path: '/power-switch-animation',
+      name: 'PowerSwitchAnimation',
+      meta: {
+        title: '开关按钮动画'
+      },
+      component: () => import('@/views/components/power-switch-animation/index.vue')
     }
   ]
 })
