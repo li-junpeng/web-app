@@ -203,6 +203,14 @@ const router = createRouter({
       component: () => import('@/views/components/loading-05/index.vue')
     },
     {
+      path: '/loading-06',
+      name: 'Loading06',
+      meta: {
+        title: 'loading - 06'
+      },
+      component: () => import('@/views/components/loading-06/index.vue')
+    },
+    {
       path: '/text-melt-expand',
       name: 'TextMeltExpand',
       meta: {
