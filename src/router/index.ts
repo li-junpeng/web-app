@@ -172,6 +172,14 @@ const router = createRouter({
       component: () => import('@/views/components/bougie/index.vue')
     },
     {
+      path: '/loading-group-01',
+      name: 'LoadingGroup01',
+      meta: {
+        title: 'loading - group - 01'
+      },
+      component: () => import('@/views/components/loading-group-01/index.vue')
+    },
+    {
       path: '/loading-01',
       name: 'Loading01',
       meta: {
