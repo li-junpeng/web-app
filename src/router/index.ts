@@ -188,6 +188,14 @@ const router = createRouter({
       component: () => import('@/views/components/loading-group-02/index.vue')
     },
     {
+      path: '/loading-group-03',
+      name: 'LoadingGroup03',
+      meta: {
+        title: 'loading - group - 03'
+      },
+      component: () => import('@/views/components/loading-group-03/index.vue')
+    },
+    {
       path: '/loading-01',
       name: 'Loading01',
       meta: {
