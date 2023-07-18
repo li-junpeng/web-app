@@ -180,6 +180,14 @@ const router = createRouter({
       component: () => import('@/views/components/loading-group-01/index.vue')
     },
     {
+      path: '/loading-group-02',
+      name: 'LoadingGroup02',
+      meta: {
+        title: 'loading - group - 02'
+      },
+      component: () => import('@/views/components/loading-group-02/index.vue')
+    },
+    {
       path: '/loading-01',
       name: 'Loading01',
       meta: {
