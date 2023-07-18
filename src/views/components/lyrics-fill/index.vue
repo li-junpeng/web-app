@@ -5,8 +5,10 @@
  * @author Junpeng.Li
  * @date 2023-06-07 17:16
 -->
-<script lang="ts">
-
+<script setup lang="ts">
+defineOptions({
+  name: 'LyricsFill'
+})
 </script>
 
 <template>

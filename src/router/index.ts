@@ -9,6 +9,16 @@ const router = createRouter({
       component: () => import('@/views/home.vue')
     },
     {
+      path: '/mouse-hover-border',
+      name: 'MouseHoverBorder',
+      meta: {
+        title: '流光卡片',
+        // 优先获取thumb字段为缩略图图片，如果没有该属性，则以路由 path + .png 为准
+        thumb: '/assets/images/component-thumb/mouse-hover-border.png'
+      },
+      component: () => import('@/views/components/mouse-hover-border/index.vue')
+    },
+    {
       path: '/streamer-card',
       name: 'StreamerCard',
       meta: {

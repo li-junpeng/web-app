@@ -6,7 +6,7 @@
  * @author Junpeng.Li
  * @date 2023-06-06 23:07
 -->
-<script lang="ts">
+<script setup lang="ts">
 
 </script>
 

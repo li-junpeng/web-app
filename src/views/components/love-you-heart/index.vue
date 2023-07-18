@@ -5,7 +5,7 @@
  * @author Junpeng.Li
  * @date 2023-06-06 22:52
 -->
-<script lang="ts"></script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="container">

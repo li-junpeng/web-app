@@ -5,8 +5,10 @@
  * @author Junpeng.Li
  * @date 2023-06-07 17:26
 -->
-<script lang="ts">
-
+<script setup lang="ts">
+defineOptions({
+  name: 'WaterJolt'
+})
 </script>
 
 <template>

@@ -7,8 +7,10 @@
  * @author Junpeng.Li
  * @date 2023-06-06 22:19
 -->
-<script lang="ts">
-
+<script setup lang="ts">
+defineOptions({
+  name: 'StreamerCard'
+})
 </script>
 
 <template>
