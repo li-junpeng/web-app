@@ -16,7 +16,8 @@ const getThumbByPath = (item: RouteRecord): string => {
   if (path.startsWith('/')) {
     path = path.substring(1)
   }
-  return `/assets/images/component-thumb/${path}.png`
+  // 获取vite的base属性
+  return `${import.meta.env.BASE_URL}/assets/images/component-thumb/${path}.png`
 }
 
 routers.forEach(item => {

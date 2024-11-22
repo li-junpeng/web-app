@@ -14,7 +14,7 @@ const router = createRouter({
       meta: {
         title: '流光卡片',
         // 优先获取thumb字段为缩略图图片，如果没有该属性，则以路由 path + .png 为准
-        thumb: '/assets/images/component-thumb/streamer-card.png'
+        thumb: `${import.meta.env.BASE_URL}/assets/images/component-thumb/streamer-card.png`
       },
       component: () => import('@/views/components/streamer-card/index.vue')
     },
@@ -23,7 +23,7 @@ const router = createRouter({
       name: 'MouseHoverBorder',
       meta: {
         title: '边框跟随鼠标高亮',
-        thumb: '/assets/images/component-thumb/mouse-hover-border.png'
+        thumb: `${import.meta.env.BASE_URL}/assets/images/component-thumb/mouse-hover-border.png`
       },
       component: () => import('@/views/components/mouse-hover-border/index.vue')
     },
